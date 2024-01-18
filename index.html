@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>
+            Easy Automotive Services 
+        </title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/Logo.jpg"></a>
+                <h1 class="myTitle">EASY AUTOMOTIVE SERVICES</h1>
+                <div class="nav-links" id="navLinks">
+                    <i class="cross" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="index.html">SERVICES</a> </li>
+                        <li> <a href="index.html">ABOUT US</a> </li>
+                        <li> <a href="index.html">CONTACT US</a> </li>
+                        <li> <a href="index.html">LOGIN/SIGNUP</a> </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+                <i class="fas fa-bars"></i>
+            </nav>
+    <div class="text-box">
+        <h1> EASY CARS SERVICES AND ACCESSORIES </h1>
+            <p>We are indian automotive services that provides facilities for multibrand 
+                from an entry level car or automotive major. We also provide scheduled 
+            maintenance.	
+                <br>
+            Company was founded by distracted vasava, rohan bakwasput.
+                <br>
+                Our vision is to provide cost effective, automotive services and enhance
+                your driving experinces and cover everything your vehicle may need. </p>
+                <a href="" class="hero-btn">Get Started</a> 
+    </div>
+        </section>
+    <section class=" Ourdetails">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, rerum? Odio,
+             eos ipsam, quo velit, vel quaerat debitis dolorem nemo est vero suscipit soluta dolor amet blanditiis. 
+             Ipsa, quibusdam id?</p>
+        <div class="row">
+            <div class="course-col">
+                <h3> Accessories and Products</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, rerum? Odio,
+                    eos ipsam, quo velit, vel quaerat debitis dolorem nemo est vero suscipit soluta dolor amet blanditiis. 
+                    Ipsa, quibusdam id?</p>
+            </div>
+            <div class="course-col">
+                <h3> Services</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, rerum? Odio,
+                    eos ipsam, quo velit, vel quaerat debitis dolorem nemo est vero suscipit soluta dolor amet blanditiis. 
+                    Ipsa, quibusdam id?</p>
+            </div>
+        </div>
+    </section>
+     <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            } 
+            function hideMenu(){
+                navLinks.style.right = "-200";
+            }
+        </script>
+    </body>
+</html>
